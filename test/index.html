@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<!--author:Vace_Vlm(ocdo@qq.com),create:2016年5月27日 下午1:02-->
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-title" content="vace"/>
+    <meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>test</title>
+    <link rel="stylesheet" href="../spectre.min.css">
+</head>
+<body>
+	<div id="app">
+        <columns>
+            <column flex>
+                <Btn>default button</Btn>
+                <Btn loading>default button</Btn>
+            </column>
+            <column flex>
+                <Btn primary>primary button</Btn>
+                <Btn primary loading>primary button</Btn>
+            </column>
+            <column flex>
+                <Btn link>link button</Btn>
+                <Btn link loading>link button</Btn>
+            </column>
+        </columns>
+
+        <Columns class="user-class" id="hello-user-id">
+            <Column flex v-for="n in 12">
+                <div class="bg-grey">col-{{n}}</div>
+            </Column>
+        </Columns>
+    
+
+        <Columns>
+            <Column flex col="12">
+                <div class="bg-grey">col-12 (100%)</div>
+            </Column>
+        </Columns>
+
+
+        <div class="columns">
+            <div class="column">
+                <Toast>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Toast>
+            </div>
+            <div class="column">
+                <Toast icon="linux" type="primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Toast>
+            </div>
+        </div>
+
+    </div>
+    <script src="//cdn.bootcss.com/vue/1.0.24/vue.min.js"></script>
+    <script src="../vue-spectre.js"></script>
+    <script>
+    /* global VueSpectre,Vue */
+    Object.keys(VueSpectre).forEach(function(k){
+        if(k[0] !== 'v'){
+            Vue.component(k,VueSpectre[k])
+        }
+    })
+    new Vue({
+        el:'#app'
+    })
+    </script>
+</body>
+</html>

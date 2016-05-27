@@ -1,0 +1,24 @@
+<template>
+	<textarea 
+		class="form-input"
+		:class="{'has-success':success,'has-danger':danger}"
+		v-model="model"></textarea>
+</template>
+<script>
+	export default {
+		props:{
+			model:{
+				required:true,
+				twoWay:true
+			},
+			danger:{
+				type:Boolean,
+				default:false
+			},
+			success:{
+				type:Boolean,
+				default:false
+			}
+		}
+	}
+</script>

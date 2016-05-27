@@ -1,0 +1,35 @@
+<template>
+	<input 
+		class="form-input"
+		:class="[{'has-success':success,'has-danger':danger},size && 'input-'+size]"
+		:type="type"
+		v-model="model"
+	/>
+</template>
+<script>
+	export default{
+		props:{
+			type:{
+				type:String,
+				default:'text'
+			},
+			size:{
+				type:String,
+				default:''
+			},
+			model:{
+				default:'',
+				required:true,
+				toWay:true
+			},
+			danger:{
+				type:Boolean,
+				default:false
+			},
+			success:{
+				type:Boolean,
+				default:false
+			}
+		}
+	}
+</script>
