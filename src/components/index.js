@@ -5,6 +5,7 @@ import '../animation.css'
 import {vtooltip,vbage} from '../directive'
 
 import Btn from './Btn'
+import Btnh from './Btnh'
 import BtnGroup from './BtnGroup'
 import Columns from './Columns'
 import Column from './Column'
@@ -33,7 +34,7 @@ import {Xform,Xgroup,Xlabel,Xinput,Xselect,
 const Componets = {
 	vtooltip,vbage,
 
-	Btn, BtnGroup,Columns,Column,Navbar,Empty,
+	Btn,Btnh, BtnGroup,Columns,Column,Navbar,Empty,
 	Avatar,Chip,AutoComplete,Lab,Badge,Toast,Icon,
 	Divider,MenuWrap,MenuItem,Crumb,Tabs,Tab,Paging,
 	Modal,Card,

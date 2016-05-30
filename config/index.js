@@ -7,7 +7,8 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '//o4e068rzf.qnssl.com/vue-spectre/',
+    assetsPublicPath: '/',
+    // assetsPublicPath: '//o4e068rzf.qnssl.com/vue-spectre/',
     productionSourceMap: false
   },
   dev: {

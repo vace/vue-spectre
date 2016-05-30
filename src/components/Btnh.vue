@@ -8,15 +8,10 @@
 
 <script>
 	/*eslint-disable */
-	//  href button
 	import {toBoolean} from '../utils/funcs'
 
 	export default {
 		props:{
-			href:{
-				type:String,
-				default: 'javascript:;'
-			},
 			primary:{
 				type:Boolean,
 				default:false,

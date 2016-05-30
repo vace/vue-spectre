@@ -32,6 +32,8 @@ new Vue({
 ```
 
 ### ES6
+
+```js
 import { Btn } from 'vue-spectre'
 
 new Vue({

@@ -1,8 +1,29 @@
 {
   "name": "vue-spectre",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "keywords": [
+    "spectre",
+    "vue",
+    "vue-spectre",
+    "vue-components",
+    "web-components",
+    "component",
+    "components",
+    "framework",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vace/vue-spectre"
+  },
+  "homepage": "https://vace.me/a/vue-spectre/index.html",
+  "main": "vue-spectre.js",
+  "directories": {
+      "src": "src/"
+  },
   "description": "spectre components built with Vue.js",
   "author": "Vace <ocdo@qq.com>",
+  "license":"MIT",
   "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",

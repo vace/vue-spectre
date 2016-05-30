@@ -66,6 +66,19 @@
 .icon-shouye:before { content: "\e62b"; }
 
 
+.demo-menu{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index: 19920626;
+  box-shadow: 2px 2px 5px #283176;
+}
+
+.demo-menu .btn-group .btn-link{
+  padding-left:4px;
+  padding-right: 4px;
+}
+
 header > h4,
 header > h5 {
     margin-top: 1rem;
@@ -138,6 +151,7 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  overflow-x:scroll;
 }
 
 /* Code blocks */
