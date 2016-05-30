@@ -9,7 +9,7 @@
 
 spectre components built with Vue.js.
 
-This repository contains a set of native Vue.js components based on Bootspectre's markup and CSS. As a result no dependency on jQuery or Bootspectre's JavaScript is required. The only required dependencies are:
+This repository contains a set of native Vue.js components based on spectre's markup and CSS.The only required dependencies are:
 
 * [Vue.js](http://vuejs.org/) (required ^v1.x.x, test with v1.0.21).
 * [Spectre CSS](https://picturepan2.github.io/spectre)
