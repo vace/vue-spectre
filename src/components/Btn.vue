@@ -1,5 +1,6 @@
 <template>
-	<button class="btn" 
+	<button class="btn"
+		:disabled="disabled"
 		:class="[{loading:loading,'btn-block':block,'btn-primary':primary,'btn-link':link,'btn-default':!primary&&!link},size ? 'btn-'+size:'']"
 	>
 		<span v-if="icon" :class="['icon','icon-'+icon]"></span>{{' '}}<slot></slot>
