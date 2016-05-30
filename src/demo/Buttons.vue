@@ -1,5 +1,5 @@
 <template>
-	<section class="container grid-960">
+	<section class="container grid-960" id="buttons">
 	  <header class="text-center">
 	    <h4>buttons</h4></header>
 	  <section class="notes">

@@ -1,10 +1,11 @@
 <template>
-  <section class="section bg-grey">
+  <section class="section bg-grey" style="padding-top: 74px;">
     <section id="overview-1" class="grid-hero container grid-960">
         <header class="text-center"><h3>Vue-Spectre</h3></header>
         <section class="notes text-center">
             <div class="btn-group">
                 <a href="https://github.com/vace/vue-spectre" target="_blank" class="btn btn-primary">GitHub Repo</a>
+                <a href="https://coding.net/u/vace/p/vue-spectre/git" target="_blank" class="btn btn-primary">Coding Repo</a>
                 <a href="#getting-started" class="btn btn-primary">Documentation</a>
             </div>
         </section>

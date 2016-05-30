@@ -40,7 +40,7 @@
 		    		<div slot="right">
 		    			<input class="form-input input-inline" type="text" placeholder="search" />
 		    			<figure class="avatar ml-10 mr-10">
-		    			    <img src="../assets/logo.png" height="200" width="200" />
+		    			    <img :src="avatar" />
 		    			</figure>
 		    			<a href="#navbar" class="btn btn-primary">share</a>
 		    		</div>
@@ -56,3 +56,14 @@
 		</section>
 	</section>
 </template>
+<script>
+	import avatar from '../assets/logo.png'
+
+	export default {
+		data(){
+			return {
+				avatar
+			}
+		}
+	}
+</script>

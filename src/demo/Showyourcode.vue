@@ -2,7 +2,7 @@
 	<div class="show-code" :id="'id-'+id">
 		<slot></slot>
 		<div class="example" data-text="code">
-			<pre>{{{innerHtml}}}</pre>
+			<pre style="overflow-x: scroll" class="language-javascript">{{{innerHtml}}}</pre>
 		</div>
 	</div>
 </template>

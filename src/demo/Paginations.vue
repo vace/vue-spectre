@@ -1,5 +1,5 @@
 <template>
-	<section class="container grid-960">
+	<section class="container grid-960" id="pagination">
 		<header id="pagination" class="text-center"><h5>pagination</h5></header>
 		<columns>
 			<column flex>
