@@ -1,4 +1,5 @@
 <template>
+  <demo-menu></demo-menu>
   <overview></overview>
   <start></start>
 
@@ -35,6 +36,7 @@
 
   Vue.directive('badge',vbage)
 
+  import DemoMenu from './demo/DemoMenu.vue'
   import Overview from './demo/Overview.vue'
   import Start from './demo/Start.vue'
 
@@ -66,7 +68,7 @@
 
   export default {
     components:{
-      Overview,Start,
+      Overview,Start,DemoMenu,
 
       Buttons,Flexbox,Navbars,Emptys,Avatars,Chips,Autocompletes,Tooltips,
       Labels,Badges,Toasts,Menus,Breadcrumbs,TabsDemo,Paginations,Modals,
